@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
     @classmethod
 
     def setUpClass(brw):
-        brw.driver = webdriver.Chrome(executable_path="/Users/priyamvadaanand/PycharmProjects/Automation_Python/FirstAutomationScript/drivers/chromedriver")
+        brw.driver = webdriver.Chrome(executable_path="C:/Users/ananpand/PycharmProjects/Window_Python_POM/FirstAutomationScript/drivers/chromedriver.exe")
         brw.driver.implicitly_wait(10)
         brw.driver.maximize_window()
     def test_login_valid(orng):
@@ -42,5 +42,5 @@ class LoginTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HTMLTestRunner.HTMLTestRunner(output='/Users/priyamvadaanand/PycharmProjects/Automation_Python/FirstAutomationScript/reprts'))
+    unittest.main(testRunner=HTMLTestRunner.HTMLTestRunner(output="C:/Users/ananpand/PycharmProjects/Window_Python_POM/FirstAutomationScript/report"))
     #unittest.main(testRunner=HTMLTestRunner.HTMLTestRunner(output='SampleProject/Report'))
