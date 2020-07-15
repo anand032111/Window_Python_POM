@@ -11,6 +11,8 @@ import HTMLTestRunner
 from FirstAutomationScript.pages.loginPage import LoginPage
 from FirstAutomationScript.pages.homePage import HomePage
 print("anand")
+print("pandey")
+print("welcome to python")
 
 class LoginTest(unittest.TestCase):
     @classmethod
