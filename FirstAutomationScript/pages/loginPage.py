@@ -15,3 +15,4 @@ class LoginPage():
 
     def click_login(self):
         self.driver.find_element_by_id(self.login_button_id).click()
+        print("new line added")
